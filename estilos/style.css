@@ -11,26 +11,39 @@ a{
 }
 
 .container{
-    width: 935px;
+    width: 750px;
     display: grid;
     grid-template-columns: 1fr 350px;
     column-gap: 1.25rem;
-    margin: 120px auto ;
+    margin: 120px auto 130px;
 }
 
 .pitch{
     height: 618px;
+    position: relative;
     background: url(../img/phone.png) no-repeat center;
 }
 
+.pitch img{
+    height: 519px;
+    width: 245px;
+    position: absolute;
+    top: 38px;
+    left: 116px;
+    border-radius: 10px 10px 25px 25px;
+}
+
 .form{
+    margin-top: 15px;
     text-align: center;
 }
 
 .form form{
+    margin-bottom: 10px;
     border: 1px solid #cccccc;
     background-color: white;
     padding: 1.25rem 2.5rem;
+    border-radius: 10px;
 }
 
 .form .logo{
@@ -89,4 +102,44 @@ a{
 .form form .forgot-password{
     color: #00376b;
     font-size: 13px;
+}
+
+.form .signup{
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form a{
+    font-weight: bold;
+    color: #0095f6;
+}
+
+.form .get-app p{
+    font-size: 14px;
+}
+
+.form .get-app img{
+    width: 136px;
+}
+
+.footer{
+    color: #8e8e8e;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.footer .links{
+    margin-bottom: 10px;
+}
+
+.footer a{
+    color: #8e8e8e;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 4px 10px;
 }
